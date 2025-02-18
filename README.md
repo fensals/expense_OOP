@@ -40,15 +40,22 @@ git clone https://github.com/fensals/expense_OOP.git
 
 ## To run the code...
 
+### Import the classes
 ```
-from expense_manager import Expense, ExpenseDatabase
+from expense_expense_db import Expense, ExpenseDatabase
+```
 
+### Create an instance of the class you want to use
+
+```
 db = ExpenseDatabase()
+
+```
+
 expense1 = Expense("Lunch", 15.75)
 db.add_expense(expense1)
 print(db.to_dict())
 
-```
 
 
 
