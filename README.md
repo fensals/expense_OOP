@@ -33,9 +33,11 @@ I created 2 classes.
     - get_expense_by_title: Retrieves expenses by title.
     - to_dict: Returns a list of dictionaries representing expenses.
 
+
 ## To Clone this repository
 
 git clone https://github.com/fensals/expense_OOP.git
+
 
 
 ## To run the code...
@@ -47,12 +49,8 @@ from expense_expense_db import Expense, ExpenseDatabase
 ### Create instances of the expense class
 ```
 expense1 = Expense("Lunch", 15.75)
-
 expense2 = Expense("Loan", 200)
-
-expense3 = Expense("Subscription", 22)
 ```
-
 ### We can call out any Expense attribute from the above instances. Eg. Title of expense1
 ```
 expense1.title
@@ -64,9 +62,8 @@ expense1.title
 
 ```
 db = ExpenseDatabase()
-
 ```
-### add expenses to the database using the add_expense method
+### Add expenses to the database using the add_expense method
 ```
 db.add_expense(expense1, expense2)
 ```
