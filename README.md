@@ -1,3 +1,5 @@
+# Object Oriented Programming
+
 The goal of this project is to show my understanding of object-oriented programming (OOP) concepts in Python.
 It demonstrates my understanding of object-oriented programming (OOP) concepts in Python, including defining class attributes, methods, and handling time-related functionalities.
 
@@ -31,9 +33,12 @@ I created 2 classes.
     - get_expense_by_title: Retrieves expenses by title.
     - to_dict: Returns a list of dictionaries representing expenses.
 
-To clone this repository:
+## To Clone this repository
 
 git clone https://github.com/fensals/expense_OOP.git
+
+
+## To run the code...
 
 ```
 from expense_manager import Expense, ExpenseDatabase
