@@ -33,9 +33,11 @@ class ExpenseDatabase:
 
     def add_expense(self, expense):
         self.expenses.append(expense)
-
-    def remove_expense(self, expense_id):
-        self.expenses = [expense for expense in self.expenses if expense.id != expense_id]
+      
+    def add_expense(self, *expenses):
+        self.expenses.extend(expenses)
+    def remove_expense(self, *expense_ids):
+        self.expenses = [expense for expense in self.expenses if expense.id not in expense_ids]
 
     def get_expense_by_id(self, expense_id):
         for expense in self.expenses:
