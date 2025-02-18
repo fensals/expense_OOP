@@ -1,4 +1,4 @@
-# Object Oriented Programming
+# Expense_OOP
 
 The goal of this project is to show my understanding of object-oriented programming (OOP) concepts in Python.
 It demonstrates my understanding of object-oriented programming (OOP) concepts in Python, including defining class attributes, methods, and handling time-related functionalities.
